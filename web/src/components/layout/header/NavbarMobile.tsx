@@ -38,7 +38,7 @@ export default function NavbarMobile() {
         </div>
         <div>
           <ul className="mx-2 flex flex-col gap-4">
-            <li className="flex">
+            {/* <li className="flex">
               <NavbarLink href="https://github.com/coinbase/build-onchain-apps" target="_blank">
                 <GitHubLogoIcon width="24" height="24" />
               </NavbarLink>
@@ -72,7 +72,7 @@ export default function NavbarMobile() {
                 </NavigationMenu.List>
                 <NavigationMenu.Viewport className={clsx('flex flex-col justify-center')} />
               </NavigationMenu.Root>
-            </li>
+            </li> */}
           </ul>
           <div className="mx-2 mt-4">
             <AccountConnect />
@@ -86,7 +86,7 @@ export default function NavbarMobile() {
     <nav
       className={[
         'flex flex-1 flex-grow items-center justify-between',
-        'rounded-[50px] border border-stone-300 bg-white bg-opacity-10 p-4 backdrop-blur-2xl',
+        'rounded-[50px] border border-stone-300 bg-black bg-opacity-10 p-4 backdrop-blur-2xl',
         'mx-4',
       ].join(' ')}
     >

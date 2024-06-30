@@ -14,7 +14,8 @@
   --palette-bg-white: #fff;
 
   /* Build Onchain Apps shared variables */
-  --boat-color-background: var(--palette-bg-black);
+  --boat-color-background: var(--palette-bg-soft-black);
+  --boat-gradient-background: linear-gradient(to bottom, #bfdbfe, #3b82f6);
   --boat-color-text: var(--palette-bg-white);
 
   /* Indicates that the element can be rendered using 
@@ -45,7 +46,8 @@ html .font-inter {
 body {
   height: 100%;
   margin: 0;
-  background-color: var(--boat-color-background);
+  /* background-color: var(--boat-color-background); */
+  background: var(--boat-gradient-background);
   color: var(--boat-color-text);
   font-family: Inter, sans-serif;
   overflow-x: hidden;

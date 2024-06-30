@@ -25,6 +25,9 @@ const config: Config = {
 
         // Mint colum grid
         '2mint': '420px 1fr',
+
+        // Pixel Art Editor Sizes
+        '16': 'repeat(16, minmax(0, 1fr))',
       },
       colors: {
         'boat-footer-dark-gray': '#141519',

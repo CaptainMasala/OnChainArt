@@ -3,7 +3,7 @@ import { generateMetadata } from '@/utils/generateMetadata';
 export const metadata = generateMetadata({
   title: 'Mint - BOAT',
   description:
-    'Save weeks of initial app setup and the hassle of integrating onchain components with web2 infrastructure.',
+    'Mint your onchain 16x16 pixel art',
   images: 'themes.png',
   pathname: 'mint',
 });

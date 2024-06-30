@@ -13,3 +13,15 @@ export const useCustom1155Contract = generateContractHook({
   },
   // more chains for this contract go here
 });
+
+type UseCustomOnChain1155Contract = (abi: any, address: `0x${string}`) => any;
+
+export const useCustomOnChain1155Contract: UseCustomOnChain1155Contract = (abi, address) =>
+  generateContractHook({
+    abi: abi,
+    [baseSepolia.id]: {
+      chain: baseSepolia,
+      address: address,
+    },
+    // more chains for this contract go here
+  })();
